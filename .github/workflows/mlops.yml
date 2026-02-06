@@ -19,7 +19,7 @@ jobs:
         run: pip install scikit-learn joblib pytest
 
       - name: Run tests
-        run: pytest tests/test_model.py
+        run: pytest test/test_model.py
 
       - name: Train model
         run: python src/train_model.py
